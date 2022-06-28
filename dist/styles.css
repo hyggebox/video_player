@@ -9,6 +9,8 @@
 
 .player-btn{
     border-style: none;
+    background-color: transparent;
+    color: #fff;
 }
 .player-btn:hover{
     cursor: pointer;
