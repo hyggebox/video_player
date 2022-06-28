@@ -1,3 +1,6 @@
 .player-btn{
     border-style: none;
 }
+.player-btn:hover{
+    cursor: pointer;
+}
