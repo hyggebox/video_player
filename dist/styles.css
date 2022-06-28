@@ -1,3 +1,12 @@
+.player{
+    background-color: #000;
+    position: relative;
+}
+.buttons-container{
+    position: absolute;
+    bottom: 0;
+}
+
 .player-btn{
     border-style: none;
 }

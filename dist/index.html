@@ -11,18 +11,18 @@
   
 </head>
 <body>
-  <div id="player" style="width: 800px; height: 600px;">
+  <div id="player" class="player" style="width: 800px; height: 600px;">
 
-    <div class="js-video-container" style="width: 100%; height: 100%"></div>
+    <div class="js-video-container" style="width: 100%; height: 95%"></div>
 
-    <div>
+    <div class="buttons-container">
       <button class="js-play-button player-btn"><i class="fas fa-play"></i></button>
       <button class="js-pause-button player-btn" hidden>Pause</button>
       <button class="js-volume-button player-btn">Volume</button>
       <button class="js-mute-button player-btn" hidden>Mute</button>
       <button class="js-fullscreen-button player-btn">Fullscreen</button>
     </div>
-    <div style="color: white;">
+    <!-- <div style="color: white;">
       <span class="js-current-time"></span>
       —
       <span class="js-duration"></span>
@@ -30,8 +30,10 @@
 
     <div class="js-progress" style="background-color: grey;">
       <div class="js-progress-slider" style="background-color: red;">Прогресс</div>
-    </div>
+    </div> -->
   </div>
+
+
 
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
   <script src="https://unpkg.com/playable@2.10.3/dist/statics/playable.bundle.min.js"></script>
