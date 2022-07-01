@@ -26,8 +26,6 @@
     font-size: 1.2rem;
     line-height: 1.5;
     margin: 0 0.25rem 0.3rem;
-}
-.player-btn:hover{
     cursor: pointer;
 }
 
