@@ -2,7 +2,7 @@
     width: 800px; 
     height: 600px;
     background-color: #000;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    box-shadow: 0 0 15px rgba(0,0,0,0.5);
     display: flex;
     flex-direction: column;
 }
@@ -18,13 +18,16 @@
     flex-grow: 1;
 }
 .player-btn{
-    height: 2rem;
+    height: 2.1rem;
     width: 2.1rem;
     border-style: none;
     background-color: transparent;
     color: #fff;
-    font-size: 1.2rem;
+    font-size: 1.02rem;
     line-height: 1.5;
-    margin: 0 0.25rem 0.3rem;
+    margin: 0 0.1rem 0.28rem;
     cursor: pointer;
+}
+.player-btn .expand-btn{
+    font-size: 1.2rem;
 }
