@@ -5,6 +5,9 @@
   <meta charset="utf-8">
   <link rel="stylesheet" href="styles.css">
   <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
   <div id="player" class="player">
@@ -16,7 +19,12 @@
       <button class="js-pause-button player-btn" hidden><i class="fas fa-pause"></i></button>
       <button class="js-volume-button player-btn"><i class="fas fa-volume-mute"></i></button>
       <button class="js-mute-button player-btn" hidden><i class="fas fa-volume-up"></i></i></button>
-      <div class="btn-empty-space"></div>
+      <div class="progress-bar-container">
+        <div class="js-current-time player-timer"></div> 
+        <div class="js-progress-slider progress-slider">Прогресс</div>
+        <div class="btn-empty-space"></div>
+        <div class="js-duration player-timer"></div>
+      </div>
       <button class="js-fullscreen-button player-btn"><i class="fas fa-expand-alt expand-btn"></i></button>
     </div>
   </div>

@@ -31,3 +31,15 @@
 .player-btn .expand-btn{
     font-size: 1.2rem;
 }
+.progress-bar-container{
+    display: flex;
+    flex-grow: 1;
+    padding-top: 0.4rem;
+}
+.player-timer{
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+.progress-slider{
+    background-color: yellow;
+}
