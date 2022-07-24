@@ -58,12 +58,17 @@
 }
 .dot {
     display: inline-block;
+    opacity: 0%;
     height: 0.5rem;
     width: 0.5rem; 
     margin-left: -0.35rem;
     background-color: red;
     border: #fff solid 0.2rem;
     border-radius: 50%;
-    box-shadow: 0 0 0.2rem rgba(0,0,0,0.5);;
+    box-shadow: 0 0 0.2rem rgba(0,0,0,0.5);
+    transition: all 300ms ease-in-out 0s;
+  }
+  .progress-bar:hover .dot{
+    opacity: 100%;
   }
   
