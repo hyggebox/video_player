@@ -3,10 +3,7 @@
 Минимальный браузерный видеоплеер, который может проигрывать/останавливать видео, убирать/включать звук и разворачивать видео на полный экран.
 
 
-![video player](https://user-images.githubusercontent.com/80201470/180875404-433a9b56-2be7-45c5-9582-dc9576e22fb4.png)
-
-
-![video player](https://user-images.githubusercontent.com/80201470/180875456-b81a8f64-1d5a-4890-8afd-90cbbdc899e1.png)
+![video player](https://user-images.githubusercontent.com/80201470/180876381-112a5eb1-bff3-4394-a840-3b0bee6f8974.png)
 
 
 ## Запуск
