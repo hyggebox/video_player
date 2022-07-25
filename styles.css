@@ -1,3 +1,6 @@
+body{
+    padding: 0.375rem;
+}
 .player{
     width: 800px; 
     height: 600px;
