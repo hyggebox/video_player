@@ -21,23 +21,23 @@ body{
     flex-grow: 1;
 }
 .player-btn{
-    height: 2.1rem;
-    width: 2.1rem;
+    height: 2.4rem;
+    width: 2.2rem;
     border-style: none;
     background-color: transparent;
     color: #fff;
-    font-size: 1.02rem;
-    line-height: 1.5;
-    margin: 0 0.1rem 0.28rem;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin: 0 0.1rem 0.15rem 0;
     cursor: pointer;
 }
 .player-btn .expand-btn{
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 .progress-bar-container{
     display: flex;
     flex-grow: 1;
-    padding-top: 0.4rem;
+    padding-top: 0.6rem;
 }
 .player-timer{
     color: #fff;
